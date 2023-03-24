@@ -1,0 +1,8 @@
+g++ -fPIC -c dframe.cpp
+g++ -shared -o libdframe.so dframe.o
+
+g++ -fPIC -c label.cpp
+g++ -shared -o liblabel.so label.o
+
+g++ -fPIC -c dset.cpp
+g++ -shared -o libdset.so dset.o
